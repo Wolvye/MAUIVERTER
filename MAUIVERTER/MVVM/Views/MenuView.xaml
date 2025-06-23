@@ -98,7 +98,7 @@
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
-                                     Glyph ="&#xF24E;"
+                                     Glyph ="&#xE805;"
                                      Size="50"
                                       Color="White"/>
                 </Image.Source>
@@ -120,7 +120,7 @@ BackgroundColor="{StaticResource AppColor4}">
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
-                      Glyph ="&#xE803;"
+                      Glyph ="&#xE801;"
                       Size="50"
                        Color="White"/>
                 </Image.Source>
@@ -133,7 +133,6 @@ BackgroundColor="{StaticResource AppColor4}">
   VerticalTextAlignment="Center"/>
         </Grid>
         <!--#endregion-->
-        
         <!--#region Energy -->
         <Grid Grid.Row="2"
     Grid.Column="2"
@@ -186,7 +185,7 @@ BackgroundColor="{StaticResource AppColor2}">
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
-                      Glyph ="&#xE82A;"
+                      Glyph ="&#xE804;"
                       Size="50"
                        Color="White"/>
                 </Image.Source>
@@ -199,13 +198,12 @@ BackgroundColor="{StaticResource AppColor2}">
   VerticalTextAlignment="Center"/>
         </Grid>
         <!--#endregion-->
-
         <!--#region Duration -->
         <Grid Grid.Row="3"
     Grid.Column="2"
 Padding="15"
 RowDefinitions=".7*,.3*"
-BackgroundColor="{StaticResource AppColor4}">
+BackgroundColor="{StaticResource AppColor3}">
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -221,6 +219,7 @@ BackgroundColor="{StaticResource AppColor4}">
   TextColor="{StaticResource TextColor}"
   VerticalTextAlignment="Center"/>
         </Grid>
-        
+
         <!--#endregion-->
+    </Grid>
 </ContentPage>
