@@ -89,6 +89,7 @@
             VerticalTextAlignment="Center"/>
         </Grid>
         <!--#endregion-->
+        
         <!--#region Mass -->
         <Grid  Grid.Row="2"
       
