@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIVERTER", "MAUIVERTER\MAUIVERTER.csproj", "{51AC30AA-C093-4B65-90FE-9CE58CCE6F5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51AC30AA-C093-4B65-90FE-9CE58CCE6F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51AC30AA-C093-4B65-90FE-9CE58CCE6F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51AC30AA-C093-4B65-90FE-9CE58CCE6F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51AC30AA-C093-4B65-90FE-9CE58CCE6F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97CD0749-22CF-4B69-A07C-D9F03704AA8C}
+	EndGlobalSection
+EndGlobal
