@@ -11,7 +11,7 @@ namespace MAUIVERTER
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new MenuView());
+            return new Window(new ConverterView());
         }
     }
 }

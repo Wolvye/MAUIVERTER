@@ -88,8 +88,7 @@
             TextColor="{StaticResource TextColor}"
             VerticalTextAlignment="Center"/>
         </Grid>
-        <!--#endregion-->
-        
+        <!--#endregion-->       
         <!--#region Mass -->
         <Grid  Grid.Row="2"
       
