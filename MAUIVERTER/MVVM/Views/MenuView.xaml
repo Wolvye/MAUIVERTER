@@ -21,7 +21,7 @@
             FontAttributes="Bold"
             FontSize="Large"
             HorizontalTextAlignment="Center"
-            Text="- MAUVERTER -"
+            Text="- MAUIVERTER -"
             TextColor="{StaticResource TextColor}"
             VerticalTextAlignment="Center"/>
         <!--#region Information -->
