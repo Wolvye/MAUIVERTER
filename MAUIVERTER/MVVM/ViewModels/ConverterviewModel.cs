@@ -28,13 +28,13 @@ namespace MAUIVERTER.MVVM.ViewModels
         });
           
 
-        public ConverterviewModel() 
+        public ConverterviewModel(string quantityName) 
         {
-            QuantityName = "Length";
+            QuantityName = quantityName;
             FromMeasures = LoadMeasures();
             ToMeasures = LoadMeasures();
-            CurrentFromMeasure = "Meter";
-            CurrentToMeasure = "Centimeter";
+            CurrentFromMeasure = FromMeasures.FirstOrDefault();
+            CurrentToMeasure = ToMeasures.Skip(1).FirstOrDefault();
             Convert();
         }
         public void Convert()

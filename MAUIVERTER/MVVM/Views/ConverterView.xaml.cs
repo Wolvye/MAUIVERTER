@@ -7,7 +7,7 @@ public partial class ConverterView : ContentPage
 	public ConverterView()
 	{
 		InitializeComponent();
-		BindingContext = new ConverterviewModel();
+		//BindingContext = new ConverterviewModel();
 	}
 
 

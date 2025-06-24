@@ -29,6 +29,10 @@
               Padding="15"
               RowDefinitions=".7*,.3*"
               BackgroundColor="{StaticResource AppColor1}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+                    Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -51,6 +55,10 @@
           Padding="15"
           RowDefinitions=".7*,.3*"
           BackgroundColor="{StaticResource AppColor2}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+                    Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -73,6 +81,10 @@
           Padding="15"
           RowDefinitions=".7*,.3*"
           BackgroundColor="{StaticResource AppColor3}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+          Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -95,6 +107,10 @@
                Padding="15"
                RowDefinitions=".7*,.3*"
                BackgroundColor="{StaticResource AppColor2}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+          Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -117,6 +133,10 @@
 Padding="15"
 RowDefinitions=".7*,.3*"
 BackgroundColor="{StaticResource AppColor4}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+          Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -139,6 +159,10 @@ BackgroundColor="{StaticResource AppColor4}">
 Padding="15"
 RowDefinitions=".7*,.3*"
 BackgroundColor="{StaticResource AppColor1}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+          Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -160,6 +184,10 @@ BackgroundColor="{StaticResource AppColor1}">
 Padding="15"
 RowDefinitions=".7*,.3*"
 BackgroundColor="{StaticResource AppColor3}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+          Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -182,6 +210,10 @@ BackgroundColor="{StaticResource AppColor3}">
 Padding="15"
 RowDefinitions=".7*,.3*"
 BackgroundColor="{StaticResource AppColor2}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+          Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
@@ -204,6 +236,10 @@ BackgroundColor="{StaticResource AppColor2}">
 Padding="15"
 RowDefinitions=".7*,.3*"
 BackgroundColor="{StaticResource AppColor3}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer
+          Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
             <Image>
                 <Image.Source>
                     <FontImageSource FontFamily ="Icons"
